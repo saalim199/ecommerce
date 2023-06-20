@@ -56,7 +56,6 @@ button.normal{
   border-radius: 4px;
   cursor: pointer;
   border: none;
-  outline: none;
   transition: 0.2s;
 }
 
@@ -82,7 +81,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 80px;
+  padding: 15px 70px;
   background: #2fabd1;
   z-index: 999;
   position: sticky;
@@ -94,11 +93,10 @@ body {
 #navbar li{
   list-style: none;
   padding: 0 20px;
-  position: relative;
 }
 #navbar li a{
   text-decoration: none;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 600;
   color: #1a1a1a;
   transition: 0.3s ease;
@@ -391,6 +389,7 @@ footer .col{
 
 footer .logo{
   margin-bottom: 20px;
+  
 }
 
 footer h4{
@@ -612,7 +611,6 @@ footer .install .row img{
 #contact-details .map{
   width: 55%;
   height: 400px;
-
 }
 
 #contact-details .map iframe{
